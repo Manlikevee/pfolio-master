@@ -136,12 +136,13 @@
 
       
 
-            <p class="section-text">
-       
-            </p>
+<div class="bottomflexcon">
+  <div class="div1">Biography</div>
+  <div class="div2">Biography</div> 
+ </div>
 
           </div>
-
+  
         </div>
       </section>
 
@@ -546,6 +547,59 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script>
+   
+    ScrollReveal().reveal('.h1', { delay: 200 });
+    ScrollReveal().reveal('.h2', { delay: 300 });
+
+    ScrollReveal().reveal('section', { easing: "ease-in" });
+
+
+    ScrollReveal().reveal('.hero-content',{
+  delay: 175,
+  duration: 1500,
+  opacity: 0,
+  distance: "50%",
+  origin: "left",
+  reset: false
+});
+
+ScrollReveal().reveal('.logo',{
+  delay: 155,
+  duration: 1500,
+  opacity: 0,
+  distance: "50%",
+  origin: "top",
+  reset: false
+});
+
+
+
+    ScrollReveal().reveal('.earlylife',{
+  delay: 175,
+  duration: 1500,
+  opacity: 0,
+  distance: "50%",
+  origin: "top",
+  reset: false
+});
+
+ScrollReveal().reveal('.fixedtop',{
+  delay: 115,
+  duration: 1500,
+  opacity: 0,
+  distance: "50%",
+  origin: "left",
+  reset: false
+});
+
+
+gsap.fromTo(".div1", {stagger: 0.9, y:6,  yoyo: true}, {y:18 ,   repeat:-1,  duration:1.2, yoyo: true});
+gsap.fromTo(".div2", {stagger: 0.9, y:16,  yoyo: true}, {y:-18 ,   repeat:-1,  duration:1.2, yoyo: true});
+
+  </script>
 
 </body>
 
