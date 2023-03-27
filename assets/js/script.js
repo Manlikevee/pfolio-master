@@ -56,7 +56,7 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 const header = document.querySelector("[data-header]");
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 100) {
+  if (window.scrollY >= 200) {
     header.classList.add("active");
   } else {
     header.classList.remove("active");
@@ -133,6 +133,32 @@ const initSlider = function (currentSlider) {
     if (event.shiftKey && event.deltaY < 0) slidePrev();
   });
 
+
+  let isDragging = false;
+let dragStartX;
+
+
+currentSlider.addEventListener("mousedown", function (event) {
+  isDragging = true;
+  dragStartX = event.clientX;
+});
+
+currentSlider.addEventListener("mousemove", function (event) {
+  if (isDragging) {
+    const dragDistance = event.clientX - dragStartX;
+    if (dragDistance > 50) {
+      slidePrev();
+      isDragging = false;
+    } else if (dragDistance < -50) {
+      slideNext();
+      isDragging = false;
+    }
+  }
+});
+
+currentSlider.addEventListener("mouseup", function (event) {
+  isDragging = false;
+});
   /**
    * RESPONSIVE
    */
