@@ -19,7 +19,7 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/caputure.png "Desktop Demo")
+![Pfolio Desktop Demo](./readme-images/Caputure.png "Desktop Demo")
 
 ### Prerequisites
 
