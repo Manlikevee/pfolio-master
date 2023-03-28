@@ -3,8 +3,6 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/pfolio)
   ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/pfolio?style=social)
   ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/pfolio?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/P-Auxj7aNfQ?style=social)](https://youtu.be/P-Auxj7aNfQ)
 
   <br />
   <br />
@@ -13,7 +11,7 @@
 
   A fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/pfolio/"><strong>➥ Live Demo</strong></a>
+  <a href="https://manlikevee.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +19,7 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Pfolio Desktop Demo](./readme-images/caputure.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -36,18 +34,18 @@ To run **Pfolio** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/pfolio.git
+sudo git clone https://github.com/Manlikevee/pfolio-master.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/pfolio.git
+git clone https://github.com/Manlikevee/pfolio-master.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/MRViktor1996).
 
 ### License
 
