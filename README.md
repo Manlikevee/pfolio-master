@@ -19,7 +19,7 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/Caputure.png "Desktop Demo")
+![Pfolio Desktop Demo](https://github.com/Manlikevee/pfolio-master/blob/master/readme-images/Capture.PNG?raw=true "Desktop Demo")
 
 ### Prerequisites
 
